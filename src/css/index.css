@@ -9,7 +9,7 @@
 
 /* Sticky Header */
 .sticky {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
     background-color: #002D72; /* Navy Blue */
@@ -60,8 +60,8 @@ nav {
 
 
 .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* White with 10% opacity */
-    backdrop-filter: blur(5px); /* Add a blur effect to the background */
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(5px); 
     border-radius: 5px;
 }
 
@@ -148,7 +148,7 @@ footer{
     position: relative;
     width: 100%;
     background-color: #002D72;
-    padding: 60px 50px 120px; /* Increase padding-bottom to prevent text overlap */
+    padding: 60px 50px 120px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -602,6 +602,7 @@ footer .waves{
 
 html, body {
     height: 100%;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
 }
